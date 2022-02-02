@@ -1,0 +1,14 @@
+F:\123\wang\ConsoleApp1\01 枚举和int以及string类型的转换\bin\Debug\netcoreapp3.1\01 枚举和int以及string类型的转换.exe
+F:\123\wang\ConsoleApp1\01 枚举和int以及string类型的转换\bin\Debug\netcoreapp3.1\01 枚举和int以及string类型的转换.deps.json
+F:\123\wang\ConsoleApp1\01 枚举和int以及string类型的转换\bin\Debug\netcoreapp3.1\01 枚举和int以及string类型的转换.runtimeconfig.json
+F:\123\wang\ConsoleApp1\01 枚举和int以及string类型的转换\bin\Debug\netcoreapp3.1\01 枚举和int以及string类型的转换.runtimeconfig.dev.json
+F:\123\wang\ConsoleApp1\01 枚举和int以及string类型的转换\bin\Debug\netcoreapp3.1\01 枚举和int以及string类型的转换.dll
+F:\123\wang\ConsoleApp1\01 枚举和int以及string类型的转换\bin\Debug\netcoreapp3.1\01 枚举和int以及string类型的转换.pdb
+F:\123\wang\ConsoleApp1\01 枚举和int以及string类型的转换\obj\Debug\netcoreapp3.1\01 枚举和int以及string类型的转换.csproj.AssemblyReference.cache
+F:\123\wang\ConsoleApp1\01 枚举和int以及string类型的转换\obj\Debug\netcoreapp3.1\01 枚举和int以及string类型的转换.GeneratedMSBuildEditorConfig.editorconfig
+F:\123\wang\ConsoleApp1\01 枚举和int以及string类型的转换\obj\Debug\netcoreapp3.1\01 枚举和int以及string类型的转换.AssemblyInfoInputs.cache
+F:\123\wang\ConsoleApp1\01 枚举和int以及string类型的转换\obj\Debug\netcoreapp3.1\01 枚举和int以及string类型的转换.AssemblyInfo.cs
+F:\123\wang\ConsoleApp1\01 枚举和int以及string类型的转换\obj\Debug\netcoreapp3.1\01 枚举和int以及string类型的转换.csproj.CoreCompileInputs.cache
+F:\123\wang\ConsoleApp1\01 枚举和int以及string类型的转换\obj\Debug\netcoreapp3.1\01 枚举和int以及string类型的转换.dll
+F:\123\wang\ConsoleApp1\01 枚举和int以及string类型的转换\obj\Debug\netcoreapp3.1\01 枚举和int以及string类型的转换.pdb
+F:\123\wang\ConsoleApp1\01 枚举和int以及string类型的转换\obj\Debug\netcoreapp3.1\01 枚举和int以及string类型的转换.genruntimeconfig.cache
