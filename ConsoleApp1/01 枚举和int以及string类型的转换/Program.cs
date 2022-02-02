@@ -95,41 +95,47 @@ namespace _01_枚举和int以及string类型的转换
 
             #endregion
             #region 用switch case语句来完成int转换为枚举实现QQ状态模式
-            while (true)
-            {
-                Console.WriteLine("请输入1到5查看QQ状态模式");
-                try
-                {
-                    int number = Convert.ToInt32(Console.ReadLine());
-                    switch (number)
-                    {
-                        case 1:
-                            Console.WriteLine("在线");
-                            break;
-                        case 2:
-                            Console.WriteLine("离线");
-                            break;
-                        case 3:
-                            Console.WriteLine("离开");
-                            break;
-                        case 4:
-                            Console.WriteLine("忙碌");
-                            break;
-                        case 5:
-                            Console.WriteLine("q我");
-                            break;
-                        case 6:
-                            Console.WriteLine("只能输入1到5的整数，其余数字无效");
-                            break;
-                    }
-                }
-                catch
-                {
-                    Console.WriteLine("输入非法程序退出");
-                    break;
-                }
-            }
-
+            //while (true)
+            //{
+            //    Console.WriteLine("请输入1到5查看QQ状态模式");
+            //    try
+            //    {
+            //        int number = Convert.ToInt32(Console.ReadLine());
+            //        switch (number)
+            //        {
+            //            case 1:
+            //                Console.WriteLine("在线");
+            //                break;
+            //            case 2:
+            //                Console.WriteLine("离线");
+            //                break;
+            //            case 3:
+            //                Console.WriteLine("离开");
+            //                break;
+            //            case 4:
+            //                Console.WriteLine("忙碌");
+            //                break;
+            //            case 5:
+            //                Console.WriteLine("q我");
+            //                break;
+            //            case 6:
+            //                Console.WriteLine("只能输入1到5的整数，其余数字无效");
+            //                break;
+            //        }
+            //    }
+            //    catch
+            //    {
+            //        Console.WriteLine("输入非法程序退出");
+            //        break;
+            //    }
+            //}
+            //枚举转换int类型
+            //int a = (int)QQState.Onlin; //如果想把枚举转换成int类型先定义一个int型变量来接受强制转换
+            //int转换枚举类型
+            //int number1 = 1;
+            //QQState a1 = (QQState)number1;
+            //Console.WriteLine(a);
+            //Console.WriteLine(a1);
 
             #endregion
 
