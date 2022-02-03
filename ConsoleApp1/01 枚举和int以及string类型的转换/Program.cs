@@ -170,7 +170,7 @@ namespace _01_枚举和int以及string类型的转换
             //Gerden d = (Gerden)Enum.Parse(typeof(Gerden), s);
             //Console.WriteLine(a);
             //Console.WriteLine(d);
-            bool b = true;
+            
             while (true)
             {
                 Console.WriteLine("请输入数字1到5来查看QQ状态模式1-onlin、2-offlin、3-leave、4-busy、5-Qme");

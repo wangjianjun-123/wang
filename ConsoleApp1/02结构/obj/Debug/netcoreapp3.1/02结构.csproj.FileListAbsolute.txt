@@ -1,0 +1,14 @@
+F:\123\wang\ConsoleApp1\02结构\bin\Debug\netcoreapp3.1\02结构.exe
+F:\123\wang\ConsoleApp1\02结构\bin\Debug\netcoreapp3.1\02结构.deps.json
+F:\123\wang\ConsoleApp1\02结构\bin\Debug\netcoreapp3.1\02结构.runtimeconfig.json
+F:\123\wang\ConsoleApp1\02结构\bin\Debug\netcoreapp3.1\02结构.runtimeconfig.dev.json
+F:\123\wang\ConsoleApp1\02结构\bin\Debug\netcoreapp3.1\02结构.dll
+F:\123\wang\ConsoleApp1\02结构\bin\Debug\netcoreapp3.1\02结构.pdb
+F:\123\wang\ConsoleApp1\02结构\obj\Debug\netcoreapp3.1\02结构.csproj.AssemblyReference.cache
+F:\123\wang\ConsoleApp1\02结构\obj\Debug\netcoreapp3.1\02结构.GeneratedMSBuildEditorConfig.editorconfig
+F:\123\wang\ConsoleApp1\02结构\obj\Debug\netcoreapp3.1\02结构.AssemblyInfoInputs.cache
+F:\123\wang\ConsoleApp1\02结构\obj\Debug\netcoreapp3.1\02结构.AssemblyInfo.cs
+F:\123\wang\ConsoleApp1\02结构\obj\Debug\netcoreapp3.1\02结构.csproj.CoreCompileInputs.cache
+F:\123\wang\ConsoleApp1\02结构\obj\Debug\netcoreapp3.1\02结构.dll
+F:\123\wang\ConsoleApp1\02结构\obj\Debug\netcoreapp3.1\02结构.pdb
+F:\123\wang\ConsoleApp1\02结构\obj\Debug\netcoreapp3.1\02结构.genruntimeconfig.cache
