@@ -11,6 +11,12 @@ namespace _01_枚举和int以及string类型的转换
         Qme      //Q我
 
     }
+    public enum Gerden
+    {
+        男=1,
+        女
+          
+    }
     class Program
     {
         static void Main(string[] args)
@@ -138,8 +144,66 @@ namespace _01_枚举和int以及string类型的转换
             //Console.WriteLine(a1);
 
             #endregion
+            #region 将枚举类型转换成字符串
+            //所有类型都能够转换成string类型
+            // int n1 = 10;         //int转换string
+            //double n1 = 3.14;     //double 转换字符串
+            //decimal n1 = 5000m;   //金钱转换字符串
+            //string s = n1.ToString();//就是要转换的变量名后面点一个ToString();就成功转换
+            //Console.WriteLine(s);
+            //枚举类型转换字符串
+            //QQState a = QQState.Onlin; //枚举QQState里去一个元素Onlin
+            //string state = a.ToString();//把Onlin元素转换成字符串转换公式变量点一个ToString();
+            //QQState nnn = QQState.Offlin;
+            //string aa= nnn.ToString();
+            //Console.WriteLine(state);
+            //Console.WriteLine(aa);
 
 
+            #endregion
+            #region  将字符串转换为枚举
+            //string s = "2";
+            //将s转换成枚举类型
+            //QQState state = (QQState)s;这个式子是转换不了
+            //将字符串转换为整数类型有三种 Convert.Toint32() int.parse()  int.tryparse()
+            //QQState a = (QQState)Enum.Parse(typeof(QQState), s);
+            //Gerden d = (Gerden)Enum.Parse(typeof(Gerden), s);
+            //Console.WriteLine(a);
+            //Console.WriteLine(d);
+            bool b = true;
+            while (true)
+            {
+                Console.WriteLine("请输入数字1到5来查看QQ状态模式1-onlin、2-offlin、3-leave、4-busy、5-Qme");
+                string input = Console.ReadLine();
+                switch (input)
+                {
+                    case "1":
+                        QQState a1 = (QQState)Enum.Parse(typeof(QQState), input);
+                        Console.WriteLine("{0}", a1);
+                        break;
+                    case "2":
+                        QQState a2 = (QQState)Enum.Parse(typeof(QQState), input);
+                        Console.WriteLine("{0}", a2);
+                        break;
+                    case "3":
+                        QQState a3 = (QQState)Enum.Parse(typeof(QQState), input);
+                        Console.WriteLine("{0}", a3);
+                        break;
+                    case "4":
+                        QQState a4 = (QQState)Enum.Parse(typeof(QQState), input);
+                        Console.WriteLine("{0}", a4);
+                        break;
+                    case "5":
+                        QQState a5 = (QQState)Enum.Parse(typeof(QQState), input);
+                        Console.WriteLine("{0}", a5);
+                        break;
+                    default:
+                        Console.WriteLine("只能输入1到5的整数");
+                        break;
+
+                }
+            }
+            #endregion
             Console.ReadKey();
         }
     }
