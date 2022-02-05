@@ -1,0 +1,14 @@
+F:\123\wang\ConsoleApp1\03数组\bin\Debug\netcoreapp3.1\03数组.exe
+F:\123\wang\ConsoleApp1\03数组\bin\Debug\netcoreapp3.1\03数组.deps.json
+F:\123\wang\ConsoleApp1\03数组\bin\Debug\netcoreapp3.1\03数组.runtimeconfig.json
+F:\123\wang\ConsoleApp1\03数组\bin\Debug\netcoreapp3.1\03数组.runtimeconfig.dev.json
+F:\123\wang\ConsoleApp1\03数组\bin\Debug\netcoreapp3.1\03数组.dll
+F:\123\wang\ConsoleApp1\03数组\bin\Debug\netcoreapp3.1\03数组.pdb
+F:\123\wang\ConsoleApp1\03数组\obj\Debug\netcoreapp3.1\03数组.GeneratedMSBuildEditorConfig.editorconfig
+F:\123\wang\ConsoleApp1\03数组\obj\Debug\netcoreapp3.1\03数组.AssemblyInfoInputs.cache
+F:\123\wang\ConsoleApp1\03数组\obj\Debug\netcoreapp3.1\03数组.AssemblyInfo.cs
+F:\123\wang\ConsoleApp1\03数组\obj\Debug\netcoreapp3.1\03数组.csproj.CoreCompileInputs.cache
+F:\123\wang\ConsoleApp1\03数组\obj\Debug\netcoreapp3.1\03数组.dll
+F:\123\wang\ConsoleApp1\03数组\obj\Debug\netcoreapp3.1\03数组.pdb
+F:\123\wang\ConsoleApp1\03数组\obj\Debug\netcoreapp3.1\03数组.genruntimeconfig.cache
+F:\123\wang\ConsoleApp1\03数组\obj\Debug\netcoreapp3.1\03数组.csproj.AssemblyReference.cache

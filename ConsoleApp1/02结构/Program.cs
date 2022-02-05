@@ -86,10 +86,22 @@ namespace _02结构
             
             Console.WriteLine(mc);
             Console.WriteLine(hei);
+            //定义一个结构类型pesson,有三个成员，分别为姓名、年龄、性别用枚举类型
+            //声明两个person类的变量，分别表示张三、男、18岁、小兰、女16岁
+            Person zperson;
+            zperson._name = "张三";
+            zperson._gender = Gender.男;
+            zperson._age = 18;
 
-
+            Person xlperson;
+            xlperson._name = "小兰";
+            xlperson._gender = Gender.女;
+            xlperson._age = 16;
+            Console.WriteLine("我叫{0} 我是{1}生 我今年{2}岁",zperson._name,zperson._gender,zperson._age);
+            Console.WriteLine("我叫{0} 我是{1}生 我今年{2}岁",xlperson._name,xlperson._gender,xlperson._age);
             Console.ReadKey();
             #endregion
+
         }
     }
 }

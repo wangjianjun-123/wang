@@ -202,9 +202,12 @@ namespace _01_枚举和int以及string类型的转换
                         break;
 
                 }
+                Console.ReadKey();
             }
+            
             #endregion
-            Console.ReadKey();
+
         }
+
     }
 }
