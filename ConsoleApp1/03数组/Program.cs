@@ -144,27 +144,79 @@ namespace _03数组
             //{
             //    Console.Write("  {0}",  nums[i]);
             //}
-
-
-
-
             #endregion
             #region 练习4
             //将数组里的字符串进行反转
             //{"我","是","好人"}
-            string[] names = { "我", "是", "好人" };
-            for (int i = 0; i < names.Length/2; i++)
-            {
-                string temp = names[i];  //声明一个第三方变量来接受数组里的i的字符串
-                names[i] = names[names.Length - 1 - i];  //意思是数组里索引的长度减一再减去遍历i的索引值等于跟
-                names[names.Length - 1 - i] = temp;
-            }
-            for (int i = 0; i < names.Length; i++)
-            {
-                Console.WriteLine(names[i]);
-            }
+            //string[] names = { "我", "是", "好人" };
+            //Console.WriteLine("交换前");
+            //for (int i = 0; i < names.Length; i++)  //循环遍历定义数组的元素
+            //{
+            //    Console.Write("{0}  ",names[i]);  //打印出所有元素
+            //}
+            //for (int i = 0; i < names.Length/2; i++)  //循环要对换数组里的元素
+            //{
+            //    string temp = names[i];  //声明一个第三方变量来接受数组里的i的字符串当i是 0 names[i]的值是"我"
+            //    names[i] = names[names.Length - 1 - i];  //意思是数组里索引的长度减一
+            //                                             //再减去遍历 i 的索引值等于跟当前数组里所处的位置
+            //    names[names.Length - 1 - i] = temp;      //把names[i]赋值给要对换的值
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine("交换后");
+            //for (int i = 0; i < names.Length; i++)
+            //{
+            //Console.Write("{0}  ", names[i]);
+            //}
+            //int[] numbers = { 1, -2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 14, 15, 16, 17, 18, 19, 20,0 };
+            //    for (int i = 0; i<numbers.Length / 2; i++)
+            //    {
+            //        int number = numbers[i];
+            //numbers[i] = numbers[numbers.Length - 1 - i];
+            //        numbers[numbers.Length - 1 - i] = number;
+            //    }
+            //    for (int i = 0; i<numbers.Length; i++)
+            //    {
+            //        Console.Write("{0}  ", numbers[i]);
+            //    }
+            #endregion
+            #region  冒泡排序
+            int[] nums = { 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
+            //for (int i = 0; i < nums.Length-1; i++)  //要实现降序用for嵌套来实现外面要循环一次里面要循环n次
+            //{
+            //    for (int j = 0; j < nums.Length-1-i; j++)  //
+            //    {
+            //        if (nums[j] > nums[j + 1])
+            //        {
+            //            int temp = nums[j];
+            //            nums[j] = nums[j + 1];
+            //            nums[j + 1] = temp;
+            //        }
+            //    }
+            //}
 
-
+            //Array.Sort(nums); //最简单的方法就是用array数组调用sort方法实现降序
+            //对数组进行反转
+            //Array.Reverse(nums);
+            //for (int i = 0; i < nums.Length; i++)
+            //{
+            //    Console.WriteLine(nums[i]);
+            //}
+            //for (int i = 0; i < nums.Length-1; i++)
+            //{
+            //    for (int j = 0; j < nums.Length-1-i; j++)
+            //    {
+            //        if (nums[j] > nums[j + 1])
+            //        {
+            //            int temp = nums[j];
+            //            nums[j] = nums[j + 1];
+            //            nums[j + 1] = temp;
+            //        }
+            //    }
+            //}
+            //for (int i = 0; i < nums.Length; i++)
+            //{
+            //    Console.WriteLine(nums[i]);
+            //}
 
             #endregion
             Console.ReadKey();
